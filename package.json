@@ -1,16 +1,16 @@
 {
-  "name": "nodejs-complete-guide",
+  "name": "node2",
   "version": "1.0.0",
-  "description": "Complete Node.js Guide",
-  "main": "routes.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "start-server": "node server.js"
+    "start": "nodemon app.js"
   },
-  "author": "Annu Solanki",
+  "author": "Annu",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
     "nodemon": "^2.0.15"
   }
 }
